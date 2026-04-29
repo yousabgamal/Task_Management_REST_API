@@ -62,7 +62,7 @@ npm install
 Create a `.env` file:
 
 ```
-PORT=5000
+PORT=port_number
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 ```
