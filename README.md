@@ -30,3 +30,97 @@ This project implements authentication, authorization, and full CRUD operations 
 ---
 
 ##  Project Structure
+
+```
+/controllers    -> Business logic
+/models         -> Mongoose schemas
+/routes         -> API routes
+/middlewares    -> Auth & error handling
+/config         -> DB configuration
+server.js       -> Entry point
+```
+
+---
+
+##  Installation
+
+```bash
+# Clone repository
+git clone https://github.com/yousabgamal/task-management-api.git
+
+# Navigate to project
+cd task-management-api
+
+# Install dependencies
+npm install
+```
+
+---
+
+##  Environment Variables
+
+Create a `.env` file:
+
+```
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+
+---
+
+##  Run the Project
+
+```bash
+# Development mode
+npm run dev
+
+# Production mode
+npm start
+```
+
+---
+
+##  API Endpoints
+
+### Auth Routes
+
+```
+POST /api/auth/register   -> Register new user
+POST /api/auth/login      -> Login user
+```
+
+### Task Routes
+
+```
+GET    /api/tasks         -> Get all tasks
+POST   /api/tasks         -> Create new task
+GET    /api/tasks/:id     -> Get single task
+PUT    /api/tasks/:id     -> Update task
+DELETE /api/tasks/:id     -> Delete task
+```
+
+---
+
+##  Security Features
+
+- Password hashing with bcrypt
+- JWT authentication
+- Protected routes middleware
+- Role-based authorization (Admin / User)
+
+---
+
+##  Future Improvements
+
+- Add pagination & filtering
+- Add task categories & priorities
+- Add WebSocket for real-time updates
+- Add unit testing (Jest / Mocha)
+
+---
+
+##  Author
+
+Backend Developer | Node.js Enthusiast  
+GitHub: https://github.com/your-username
