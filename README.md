@@ -46,10 +46,10 @@ server.js       -> Entry point
 
 ```bash
 # Clone repository
-git clone https://github.com/yousabgamal/task-management-api.git
+git clone https://github.com/yousabgamal/Task_Management_REST_API.git
 
 # Navigate to project
-cd task-management-api
+cd Task_Management_REST_API
 
 # Install dependencies
 npm install
@@ -123,4 +123,4 @@ DELETE /api/tasks/:id     -> Delete task
 ##  Author
 
 Backend Developer | Node.js Enthusiast  
-GitHub: https://github.com/your-username
+GitHub: https://github.com/yousabgamal
